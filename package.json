@@ -1,0 +1,11 @@
+{
+  "name": "from-home-gallery",
+  "version": "1.0.0",
+  "description": "Notes From Home Exhabition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hila Ben Baruch",
+  "license": "ISC"
+}
