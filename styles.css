@@ -245,6 +245,19 @@ body {
     left: 0;
     overflow: hidden;
 }
+#wrap .images .new:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    transition: all ease .6s;
+    background-color: rgba(0,0,0, .2);
+}
+#wrap .images .new:hover:after {
+    background-color: rgba(0,0,0, .5);
+}
 
 #wrap .images .new .slide {
     width: 100%;
@@ -535,4 +548,53 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+/* VIDEO things */
+#video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: #000;
+}
+#video-overlay div {height: 100%;}
+#video-overlay video {
+    display: none;
+    width: auto;
+    min-height: 100%;
+}
+#modal-close {
+    position: fixed;
+    right: 25px;
+    color: #fff;
+    top: 25px;
+    z-index: 9999;
+}
+#video-overlay video.show {
+    display: block;
+}
+#progress {
+    height: 18px !important;
+    position: relative;
+    background-color: #1D0D1C;
+}
+#progress .fill {
+    height: 100%;
+    transition: width ease 1s;
+    position: absolute;
+    left: 0;
+    width: 0;
+    background-color: #ffde00;
+}
+    
+#video-overlay .controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    height: 18px;
 }

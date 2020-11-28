@@ -15,7 +15,9 @@ const data = [{
     writerEnglishName: 'תהילה חכימי',
     writerHebrewName: 'Tehila Hakimi',
     animatorEnglishName: 'Anil Rinat',
-    animatorHebrewName: 'אניל רינת'
+    animatorHebrewName: 'אניל רינת',
+    controlColor: '#ffde00',
+    videoEl: '#video-overlay .slide-1'
   },
   {
     hebrewTitle: 'כשהעולם בלם',
