@@ -37,7 +37,7 @@ const data = [{
   },
   {
     hebrewTitle: 'אני, אפי והמדינה',
-    englishTitle: 'אני, אפי והמדינה',
+    englishTitle: 'Me, My Nose and the Country',
     writerEnglishName: 'Yuval Plotkin',
     writerHebrewName: 'יובל פלוטקין',
     animatorEnglishName: 'Tamar Chen',
@@ -132,12 +132,12 @@ const data = [{
     animatorHebrewName: 'גיה קסטן'
   },
   {
-    hebrewTitle: 'להשלים 17',
-    englishTitle: '17',
-    writerEnglishName: '17',
-    writerHebrewName: '17',
-    animatorEnglishName: '17',
-    animatorHebrewName: '17'
+    hebrewTitle: 'עצלני מיטה',
+    englishTitle: 'Two Lazy Bed Sloths',
+    writerEnglishName: 'Leigh Heiman',
+    writerHebrewName: 'לי היימן',
+    animatorEnglishName: 'Alon Sivan',
+    animatorHebrewName: 'אלון סיון'
   },
   {
     hebrewTitle: 'חומוס',
@@ -167,7 +167,7 @@ const data = [{
     hebrewTitle: 'מסיבת תחפושות',
     englishTitle: 'Costume Party',
     writerEnglishName: 'Dor Amitai',
-    writerHebrewName: 'Dor Amitai',
+    writerHebrewName: 'דור אמיתי',
     animatorEnglishName: 'Shai Cotani & Rotem Lebel',
     animatorHebrewName: 'שי כותני ורותם לבל'
   },

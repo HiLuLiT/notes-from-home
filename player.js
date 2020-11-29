@@ -6,6 +6,8 @@
   const videoOverlay = document.getElementById('video-overlay')
   const videos = videoOverlay.querySelectorAll('video')
   const modalClose = document.getElementById('modal-close')
+  const eng = document.getElementById("engBtn")
+  const heb = document.getElementById("hebBtn")
   let video
   button = document.getElementById("play-btn")
   let started = false
@@ -43,12 +45,28 @@
     const dur = video.duration
     video.currentTime = Math.round(rel * dur)
   }
+  
+  function handleTextSelection(event) {
+    const englishParagraph = document.getElementById('english')
+    const hebrewParagraph = document.getElementById('hebrew')
+    if(event.target.id === 'engBtn') {
+      eng.classList.add("active")
+      heb.classList.remove("active")
+      hebrewParagraph.classList.add("hide")
+      englishParagraph.classList.remove("hide")
+    } else {
+      heb.classList.add("active")
+      eng.classList.remove("active")
+      hebrewParagraph.classList.remove("hide")
+      englishParagraph.classList.add("hide")
+    }
+    
+  }
 
   function handleTextBlockClick() {
     const textBlock = document.getElementById("text-block")
-    const width = document.querySelector("figure").clientWidth * 0.7
-
-    textBlock.querySelector("#text-block .wrapper").style.width = `${width}px`
+    eng.addEventListener("click", handleTextSelection)
+    heb.addEventListener("click", handleTextSelection)
     textBlock.classList.toggle("open")
     blockTrigger.innerText =
       blockTrigger.innerText === "Text" ? "Video" : "Text"
@@ -63,7 +81,7 @@
     video.classList.add('show')
     video.play()
     video.addEventListener("timeupdate", progressLoop)
-  } 
+  }
 
   function initSlideClick(slide, ind) {
     slide.addEventListener("click", () => handleVideoModalOpen(ind))
