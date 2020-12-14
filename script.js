@@ -7,7 +7,8 @@ const data = [{
   writerEnglishName: 'Alfie Gelbard',
   writerHebrewName: 'אלפי גלברד',
   animatorEnglishName: 'Sher Zafrany',
-  animatorHebrewName: 'שר זפרני'
+  animatorHebrewName: 'שר זפרני',
+  controlColor: '#ff0000',
 },
   {
     hebrewTitle: 'ממשק קליט',
