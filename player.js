@@ -80,23 +80,22 @@
     } catch (error) {}
   }
 
-  function handleVideoModalOpen(ind, slide) {
+  function handleVideoModalOpen(ind) {
     const { videoLink, hebrewText, englishText } = data[ind]
     videoOverlay.classList.remove("hide")
     videoElm.src = videoLink
     englishTextElm.innerHTML = englishText
     hebrewTextElm.innerHTML = hebrewText
-    // video = videos[ind] && videos[ind]
-    if (!video) return
+    if (!videoElm) return
 
     setControlColors(ind)
-    video.classList.add("show")
-    video.play()
-    video.addEventListener("timeupdate", progressLoop)
+    videoElm.classList.add("show")
+    videoElm.play()
+    videoElm.addEventListener("timeupdate", progressLoop)
   }
 
   function initSlideClick(slide, ind) {
-    slide.addEventListener("click", () => handleVideoModalOpen(ind, slide))
+    slide.addEventListener("click", () => handleVideoModalOpen(ind))
   }
 
   button.addEventListener("click", playPause)
