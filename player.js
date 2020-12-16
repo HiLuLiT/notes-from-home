@@ -4,11 +4,12 @@
   const blockTrigger = document.getElementById("block-trigger")
   const slides = document.querySelectorAll(".new")
   const videoOverlay = document.getElementById("video-overlay")
-  const videos = videoOverlay.querySelectorAll("video")
+  const videoElm = document.getElementById("video")
+  const hebrewTextElm = document.getElementById("hebrew")
+  const englishTextElm = document.getElementById("english")
   const modalClose = document.getElementById("modal-close")
   const eng = document.getElementById("engBtn")
   const heb = document.getElementById("hebBtn")
-  let video
   button = document.getElementById("play-btn")
   let started = false
 
@@ -79,10 +80,13 @@
     } catch (error) {}
   }
 
-  function handleVideoModalOpen(ind) {
+  function handleVideoModalOpen(ind, slide) {
+    const { videoLink, hebrewText, englishText } = data[ind]
     videoOverlay.classList.remove("hide")
-    video = videos[ind] && videos[ind]
-
+    videoElm.src = videoLink
+    englishTextElm.innerHTML = englishText
+    hebrewTextElm.innerHTML = hebrewText
+    // video = videos[ind] && videos[ind]
     if (!video) return
 
     setControlColors(ind)
@@ -92,7 +96,7 @@
   }
 
   function initSlideClick(slide, ind) {
-    slide.addEventListener("click", () => handleVideoModalOpen(ind))
+    slide.addEventListener("click", () => handleVideoModalOpen(ind, slide))
   }
 
   button.addEventListener("click", playPause)
