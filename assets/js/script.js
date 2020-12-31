@@ -4,8 +4,9 @@ gsap.registerPlugin(ScrollTrigger)
 function createPages () {
   let galleryTemplateStringArray = []
   data.map((page, i) => {
-    const galleryTemplateString = `<div class="thumb container">
-       <article class="post-wrap col-lg-12">
+    const galleryTemplateString = `<div class="thumb">
+       <div class="row">
+       <article class="post-wrap col-md-12">
         <div class="titles">
           <span class="first white SundayMediumItalic">${page.hebrewTitle}</span>
           <span class="second gallery-${i + 1} SundayExtraBoldItalic">${page.englishTitle}</span>
@@ -23,6 +24,7 @@ function createPages () {
           </div>
         </div>
       </article>
+      </div>
      </div>`
     galleryTemplateStringArray.push(galleryTemplateString)
   })
@@ -76,11 +78,6 @@ const slider = {
       .to('.new > .slide', { yPercent: 100 }, '<')
     return tl
   },
-  setNextPics: function () {
-    slider.boxes.forEach((box, i) => {
-      i > 0 ? gsap.set(box.firstElementChild, { scale: 1 }) : null
-    })
-  },
   setTl: function () {
     slider.mainTl
       .set('.images', { position: 'fixed' })
@@ -93,6 +90,5 @@ const slider = {
 }
 
 createPages()
-slider.setNextPics()
 slider.setTl()
 

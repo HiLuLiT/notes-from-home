@@ -1,4 +1,5 @@
 const data = [{
+  controlColor: '#9fc8c9',
   hebrewTitle: 'שלישי',
   englishTitle: 'Tuesday',
   writerEnglishName: 'Alfie Gelbard',
@@ -7,10 +8,10 @@ const data = [{
   animatorHebrewName: 'שר זפרני',
   englishText: 'Some days I ask Yuval if today is a Tuesday, and he says No, it\'s a Monday. Or a Wednesday. One time it was a Thursday, I remember. At one of those segments I tried forming a deep thought about the meaning of time, but…I still set an alarm clock, but with less conviction. <br><br>Since I\'ve stopped being essential it\'s harder to get up. More snoozes, more turning over to the other side. The shower misses me, I know. The shoes miss me too, so do the sweaters, the jeans, the car battery. For the last two weeks I\'ve been saying I\'m going to clean the stove.<br><br>Some days I pretend I\'m working on a book. Some days I pretend I\'m making plans for the future. On the days I pretend hard enough I feel a little bit fake-essential again. But then Netflix beckons, and four episodes in I remember.<br><br>There\'s a feeling of deceit in the air, like finding out the tooth fairy doesn’t exist or that your job interview was actually a pyramid scheme invitation. But I suspect I\'ve tricked myself. The state called me non-essential and slowly, night rotating night, I\'m beginning to agree.',
   hebrewText: 'יש ימים שאני שואל את יובל האם היום יום שלישי והוא עונה שלא, זה שני. או רביעי. פעם אחת היה חמישי, אני זוכר. באחד המקטעים ניסתי ליצור מזה מחשבה עמוקה על משמעות הזמן אבל אני עדיין מכוון שעון מעורר, אבל עם פחות אמונה. <br><br>מאז שהפסקתי להיות חיוני קשה לי לקום. יותר סנוזים, יותר מסתובב לצד השני. המקלחת מתגעגעת אלי, אני יודע. גם הנעליים מתגעגעות, גם הסוודרים, גם הג׳ינסים, גם המצבר של האוטו. כבר שבועיים אני אומר שאנקה את הכיריים.<br><br>יש ימים שאני מעמיד פנים שאני עובד על ספר. יש ימים שאני מעמיד פנים שאני בודק תכניות לימודים לעתיד. בימים שאני מעמיד פנים חזק מספיק אני מרגיש שוב קצת פייק-חיוני. אבל אז נטפליקס קורא לי, ואחרי ארבעה פרקים ברצף של קאסה דה פאפל אני נזכר.<br><br>יש תחושה של תרמית באוויר, כמו לגלות שפיית השיניים לא קיימת או שהראיון עבודה הוא הזמנה לתרמית פירמידה, אבל אני חושד שאני רימיתי את עצמי. המדינה הכריזה עלי כלא הכרחי ולאט לאט, עם רוטציית הלילות, אני מתחיל להסכים.',
-  videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-1.mp4'
+  videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-1.mp4'
 },
   {
-    controlColor: '#ffde00',
+    controlColor: '#ffe84a',
     hebrewTitle: 'ממשק קליט',
     englishTitle: 'Striking Experience',
     writerEnglishName: 'תהילה חכימי',
@@ -19,9 +20,10 @@ const data = [{
     animatorHebrewName: 'אניל רינת',
     englishText: 'I just finished a job interview with a virtual character called Candy…or Sandy. Her animated lips and her voice weren’t synced, and every few seconds her image glitched on my screen,<br><br>Overall the experience was very striking, at least there is a response.while I answered her questions she disappeared and I was faced with my own reflection, and behind me my living room, a weird experience. <br><br>It\'s hard because when talking to yourself your voice becomes monotone, and it\'s hard to know if it\'s better to keep your response short or long. I kept some of them short and some of them long, I can only hope I did it in the right places.',
     hebrewText: 'הרגע סיימתי ראיון עבודה מצולם בו ראיינה אותי דמות וירטואלית בשם קנדי או סנדי, לא הייתה התאמה בין הדיבור לבין השפתיים המצוירות שלה ומדי פעם הדמות שלה ריצדה על המסך. <br><br>עם כל זה הממשק היה קליט סך הכל, לפחות מישהו חוזר אליך.  בזמן שדיברתי היא נעלמה וראיתי רק את עצמי ומאחורי הסלון שלי, חוויה משונה. זה קשה כי כשאת מדברת אל עצמך, הקול הופך מונוטוני ואין לדעת אם עדיף להאריך בדברים או לקצר. לפעמים הארכתי ולפעמים קיצרתי, אפשר רק לקוות שבמקומות הנכונים.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-2.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-2.mp4'
   },
   {
+    controlColor: '#dcb58e',
     hebrewTitle: 'כשהעולם בלם',
     englishTitle: 'When the World Stopped',
     writerEnglishName: 'Arik Eber',
@@ -30,9 +32,10 @@ const data = [{
     animatorHebrewName: 'אדוה סנטו',
     englishText: 'When the world stopped (stood still), so did I.<br>Panting.<br>For a while now, I yearned to stop.<br>I dared not.<br>When one runs for so long until their destination is lost, stopping means dying.<br>Yet I haven’t died.<br>On the contrary, I washed my dishes.<br><br>I felt the cold water on my palms, polished wine glasses, and pondered the best way of approaching the task of washing the food container lids.<br><br>At times I was tense from being so still, yet I kept kneading thoroughly the mixture of potatoes and flour, planning to make out of it mushroom gnocchi and roasted chestnuts for tomorrow’s dinner.<br><br>For weeks I tried and failed to play ‘Hallelujah” on the piano.<br><br>At some point, the world urged me to step back into the race, but I was too busy watching a street cat trying to drink the drops of air conditioner water.',
     hebrewText: 'כשהעולם בלם, עצרתי גם אני. <br>מתנשף. <br>כבר זמן מה רציתי לעצור ולא העזתי.<br>כשאתה רץ כל כך הרבה זמן ששכחת מה יעדך, לעצור - פירושו למות.<br>אך לא מתּי. <br>להפך - רחצתי כלים. <br><br>הרגשתי את קרירות המים על ידיי, הברקתי כוסות יין, התעכבתי לתהות כיצד יהיה הכי נכון לנקות את מכסי קופסאות הפלסטיק עתירי התעלות.<br><br>לעיתים הייתי נדרך מחוסר התנועה אך ממשיך ללוש ביסודיות תערובת תפוחי אדמה וקמח ממנה תכננתי להכין ניוקי פטריות יער וערמונים קלויים לארוחת הערב של מחר.<br><br>נסיונותיי ללמוד לנגן בפסנתר את הללויה נמשכו שבועות.<br>מתישהו, העולם החל לדחוק בי לחזור לקו הזינוק ואני הייתי עסוק בלהתבונן בחתול רחוב מנסה לשתות מי מזגנים. ',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-3.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-3.mp4'
   },
   {
+    controlColor: '#ff7151',
     hebrewTitle: 'בדיוק איך שזה היה',
     englishTitle: 'Exactly as it Was',
     writerEnglishName: 'Rashel Nakar',
@@ -41,9 +44,10 @@ const data = [{
     animatorHebrewName: 'דניאל אלחסיד',
     englishText: 'It started on March 9. We were supposed to have a Purim party, but they told us it couldn’t take place in the community center. What happened? There’s some sort of epidemic.<br><br>I have been listening to the news. Passover is near – we won’t visit our kids, and they won’t come to us. We’re staying home.<br><br>If it gets boring, I keep myself busy. I go to my room, I have a computer there, I sit and play on it. If something doesn’t work out because I’m stubborn, I hit all the keys until I fix it, because I have no one else to fix it for me. So, I get by.<br><br>I won’t say I’m afraid, I’m naturally resilient because I went through a lot in the past eighty-two years. I remember the hardest part it was called “Farhud”. I was a three-and-a-half-year-old girl in Iraq and I would never forget it.<br><br>Since then I’ve been asked “how do you remember?” and I tell it all, exactly as it was.',
     hebrewText: 'זה התחילי בתשיעי במרץ, בדיוק הייתה לנו מסיבת פורים, אמרו לנו שהמסיבה לא מתקיימת במתנ״ס. מה קרה? יש איזו מגפה של נדבקים.<br>אני מקשיבה לחדשות, מתקרב הפסח - לא הולכים לילדים והם לא באים. נשארים בבית.<br><br>אם משעמם אני מעסיקה את עצמי. אני הולכת לחדר, יש לי שם מחשב, אני יושבת לשחק איתו. אם לא מסתדר לי אני עקשנית, אני משחקת בכל הכפתורים עד שאני מסדרת את זה, כי אין לי למי לפנות שיבוא לסדר לי. אז אני מצליחה.<br><br>אני לא הייתי אומרת שאני מפחדת, אני מטבעי לא פחדנית כי עברתי הרבה במשך 82 שנה. אני זוכרת את הדבר הכי קשה, ילדה בגיל 3 וחצי, קראו לזה פרהוד בעירק. את זה אני לא אשכח.<br><br>מאז שואלים אותי ׳איך את זוכרת?׳ ואני מספרת הכל, איך שזה היה.<br><br>',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-4.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-4.mp4'
   },
   {
+    controlColor: '#6fdeac',
     hebrewTitle: 'אני, אפי והמדינה',
     englishTitle: 'Me, My Nose and the Country',
     writerEnglishName: 'Yuval Plotkin',
@@ -52,9 +56,10 @@ const data = [{
     animatorHebrewName: 'תמר חן',
     englishText: 'All of a sudden, without any notice, there\'s this strange moment when my nose itches, and I think about my country. The World Health Organization warned me not to touch my face, so now they stand between me, myself and I–waiting in the transparent areas between my fingers.<br><br>And it\'s not only them, because if I touch my eyes (I\'ve been outside for an hour now and haven\'t washed my hands), I might get infected. Me, I can handle it, no big deal. <br>But then I might infect my parents, <br>and the old woman next door, <br>and the cashier lady from the supermarket–and her parents, <br>and their old woman next door and so on and so on.<br><br>A very strange moment, that even the disaster movies couldn\'t predict, in which unprecedented responsibility lies upon my eyelashes, eyebrows and eyelids. And a great danger is curled up, lurking on the tip of my tongue. ',
     hebrewText: 'בלי הכנה מגיע רגע מוזר מאוד, שבו מגרד לי האף ואני חושב על המדינה. ארגון הבריאות העולמי ביקש שלא אגע בפנים, ועכשיו הוא ניצב ביני וביני, בתחום השקוף שבין אצבעותיי. <br><br>ולא רק הוא, כי אם אגע בעיניים (כבר שעה אני בחוץ ולא רחצתי ידיים), אני עשוי להידבק. <br>ומילא אני - אני אעמוד בזה, <br>אבל אולי אדביק את ההורים, <br>ואת השכנה הזקנה, <br>ואת המוכרת בסופרמרקט<br>ואת ההורים שלה, <br>ואת השכנה שלהם, וכן הלאה וכן הלאה. <br><br>רגע מוזר מאוד, שאפילו סרטי האסונות לא ניבאו, שבו אחריות חסרת תקדים רובצת לכאורה על הריסים, הגבות, העפעפיים. איזו סכנה מקופלת לפתע על קצה הלשון.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-5.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-5.mp4'
   },
   {
+    controlColor: '#f9cdf0',
     hebrewTitle: 'כוכבי הצפון הישן',
     englishTitle: 'The Old Northern Stars',
     writerEnglishName: 'Dean Lanner',
@@ -63,9 +68,10 @@ const data = [{
     animatorHebrewName: 'זוהר דביר',
     englishText: 'Loud moans woke me up last night. The time was 3:48.<br>They seemed to be coming from far away, but the volume was… Dear God! At first I wasn’t sure if it was merely my imagination or some cats losing their eyes in the yard. After a few minutes there was not a doubt in my mind–this was a case of an actual serious FUCK.<br><br>I assumed she was on top.<br><br>Whenever I hear the neighbours fuck, I always think the girl is on top.<br><br>Is she blond? A brunette? Does she have a big ass? <br>Where are her birthmarks? Does she have Coronavirus? How old is she?<br>What is her name? Does she follow me on Instagram?<br><br> And why so late at night? What’s wrong with 22:28 or 00:03?<br>What were they doing until now? A jigsaw puzzle?<br><br> After some time pondering, and missing human touch, I finally managed to fall back asleep. And who do you think wakes me at 5:42? A second round for the “Stars of the old north”.<br>It took them an hour and fifty six minutes to recharge and then… WHAM! BANG!<br><br> I got what this fuck was about. This wasn’t just any fuck for its own sake, this fuck was a statement. A socio-political fuck. A fuck that was a celebration of humanity, a fuck oozing with Joie de vivre!<br><br>The same way the world gave us Covid-19 to get rid of air pollution, the cosmos now brings us moaning couples to awaken people from their slumber and remind everyone that everything is OK. No economic crisis nor plague could suppress our erection, and we still haven\'t lost our hope and affection.',
     hebrewText: 'גניחות זיון העירו אותי משנתי אתמול בלילה, השעה הייתה 3:48. <br>הן בקעו מרחוק אבל העוצמה הייתה אלוהים ישמור. בהתחלה לא הייתי בטוח אם זה פרי דמיוני או חתולים מאבדים עיניים בחצר, אבל אחרי כמה דקות לא היה לי ספק - היה מדובר בזיון ממשי. <br><br>הנחתי שהיא הייתה מעליו. תמיד כששומעים את השכנים מזדיינים אני חושב שהיא מעליו. <br><br>היא בלונדינית? ברונטית? יש לה תחת גדול? <br>איפה נקודות החן שלה? יש לה קורונה? בת כמה היא? <br>איך קוראים לה? היא עוקבת אחריי באינסטגרם? <br><br>עניין אותי למה בשעה כזאת מאוחרת בלילה?<br>מה רע ב22:28 או ב00:03? מה עשיתם עד עכשיו? פאזל?<br><br>אחרי דקות של הרהורים וגעגוע למגע אנושי הצלחתי להרדם סוף סוף, ומי מעורר אותי ב5:42? סיבוב שני ל״כוכבי הצפון הישן״. <br>לקח להם שעה וחמישים ושש דקות להטען מחדש ושוב בום וטראח.<br><br>הבנתי מה הסיפור, זה לא היה רק זיון לשם עצמו, זה זיון שהוא סטייטמנט. זיון חברתי פוליטי. זיון שהוא חגיגת המין האנושי, חדוות החיים. <br>כמו שהעולם הביא את הקורונה בשביל להיפטר מזיהום האוויר, <br>הקוסמוס מביא זוגות גונחים מסביב לעולם בשביל להעיר את האנשים משנתם ולהזכיר לכולם שהכל בסדר. לא משבר כלכלי ולא מגיפה יצליחו לדכא את זקפתנו, ועוד לא אבדה תקוותנו.<br><br>',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-6.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-6.mp4'
   },
   {
+    controlColor: '#e7aca0',
     hebrewTitle: 'חפצים',
     englishTitle: 'Objects',
     writerEnglishName: 'Achinoam Tamar Virt',
@@ -74,9 +80,10 @@ const data = [{
     animatorHebrewName: 'שי בן ארי',
     englishText: 'I was disheveled,<br>Like all objects that lose their essence,<br>A mug holds markers and scissors, an ashtray becomes covered with chewing gum, the sewing machine\'s table holding up a coffee cup.<br><br>I yearned–to heal from all the definite things,<br>To build things that will change their form after I\'m gone<br>And at night, transform from distant dreams into great joy.',
     hebrewText: 'הייתי סתורה,<br>כמו כל החפצים שמאבדים ממהותם,<br>ספל מחזיק טושים ומספריים, מאפרה מלאה במסטיקים,<br>שולחן מכונת התפירה משמש כמעמד לכוס קפה.<br><br>רציתי - להרפא מכל הדברים החד משמעיים,<br>לבנות דברים שישנו את צורתם לאחר שאלך,<br>ובלילה יהפכו מחלומות רחוקים לשמחה גדולה.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-7.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-7.mp4'
   },
   {
+    controlColor: '#ba7db7',
     hebrewTitle: 'הוראה מרחוק',
     englishTitle: 'Remote',
     writerEnglishName: 'Kobi Fridchay',
@@ -85,9 +92,10 @@ const data = [{
     animatorHebrewName: 'עופר וינטר',
     englishText: 'Dear Mr. Fridchay Yaakov,<br><br>Due to the fact that I am in quarantine with my small children, I would like to request a postponement of the due date for handing in the assignment.<br><br>Hoping for consideration.<br><br>Have a magical day,<br><br>Meira.<br><br>Mr. or Ms. are the lowest academic titles. Although like Dr. or Professor, the title of Mr. comes with a tucked in button down shirt, a peeking belly, white hair and sometimes a mustache as well. <br><br>Luckily for him, this current semester the students have met Mr. Fridchay while sitting in his home, in shorts and slippers, his potbelly well hidden behind the table. Unfortunately, Mr. Fridchay did not see students at all but saw only a mosaic of black and silent squares.  <br><br>When she wished him a magical day, he remembered that behind the attempt to address him formally and hide behind a screen during class, is a real gal with a head and a heart and a belly button. ',
     hebrewText: 'מר פרידחי יעקב שלום רב,<br><br>בשל הבידוד בו אני נמצאת עם ילדיי הקטנים, רציתי לבקש הארכה במועד <br>ההגשה של המטלה.<br><br>מקווה להתחשבות.<br><br>יום קסום,<br>מאירה. <br><br>מר או גב\' אלו הדרגות האקדמאיות הנמוכות ביותר. אולם בדומה לדר <br>או פרופ\'- דרגת מר מתלווה לחולצה מכופתרת בתוך המכנסיים, לכרס מבצבצת, שיער לבן ולפעמים גם שפם.<br><br>למזלו, בסמסטר הנוכחי הסטודנטים פגשו במר פְרִידחַי כשהוא יושב בביתו, במכנסיים קצרים וכפכפים, בעוד הכרס מסתתרת היטב מתחת לשולחן. לרוע המזל, מר פרידחי לא ראה סטודנטים כלל אלא פסיפס ריבועים שחורים ודוממים.<br><br>כשאיחלה לו יום קסום, הוא נזכר שמאחורי הניסיון לפנות ברשמיות ולהיעלם מאחורי המסך בשיעור- נמצאת בחורה אמיתית עם ראש ולב ופופיק.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-8.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-8.mp4'
   },
   {
+    controlColor: '#a9cafe',
     hebrewTitle: 'אדונית של הזמן',
     englishTitle: 'Master of Time',
     writerEnglishName: 'Noa Shaham',
@@ -96,9 +104,10 @@ const data = [{
     animatorHebrewName: 'טליה נוימן',
     englishText: 'You were afraid I would lose my mind. <br>You encouraged me to embrace a daily routine. <br>The first week went great–I woke up in the morning, I read, I drew. But then, on a Friday eve, after drinking a whole bottle of wine, I took out all my anger on some dumb blonde that left the house because “Isolation got too boring”. You comforted me through video chat and promised to rat her out to the police.<br><br>In the second week I started having fun, which caught me by surprise. I created my own universe. A universe where I am the master of time, <br>I decide when the sun shines. <br>I also decide when it sets. <br>I decide when to eat and what and where. <br>I am the master of leisure and I am the master of space. <br>I am the master of all the rooms, and all the stuff, and where they are placed and in what angle or pile. <br>I am the master of chores, the master of what is clean and what is messy. <br><br>Control always comes to me so easily and is so addictive to me. <br>I kept the universe I created a secret. <br>Talking to you I kept applauding your serenades and counting the days until we meet again. The house no longer has your smell Romeo. The sheets have been washed and the laundry is all clean. <br>How will I welcome you home? Will I go back to tidying up the space and cleaning the floor of dusty little water specs? ',
     hebrewText: 'פחדת כל כך שאשתגע. <br>ביקשת שאסגל לעצמי שגרה. <br>השבוע הראשון עלה יפה - הצלחתי לקום בבוקר, הצלחתי לקרוא, הצלחתי לצייר. אבל אז בשישי כששתיתי בקבוק יין שלם, צעקתי בזעם על איזו בלונדינית ששברה בידוד כי שיעמם לה. ואתה עודדת אותי דרך המסך של שיחת הוידאו והבטחת להלשין עליה למלשינון.<br><br>בשבוע השני התחלתי להנות, מה שהפתיע גם אותי. בראתי יקום משלי. יקום שבו אני האדונית של הזמן, <br>אני מחליטה בדיוק מתי זורחת השמש. <br>אני מחליטה גם מתי השקיעה. <br>אני מחליטה מתי אוכלים ומה ואיפה. <br>אני אדונית של הפנאי, של החלל. של כל החדרים שבבית וכל החפצים ואיפה הם מונחים ובאיזו זווית או ערימה. <br>אדונית של המטלות, אדונית של הסדר הטוב וגם של הבלאגן. <br><br>השליטה באה לי כל כך בקלות והיא תמיד כל כך ממכרת. <br>שמרתי על היקום שלי בסוד וגם על ההנאה החדשה ממנו. <br>כלפי חוץ המשכתי להתרגש מהסרנדות ולספור את הימים. הבית כבר לא מריח ממך. הסדינים הוחלפו וכל הכביסה נקייה. <br>איך אקבל את פניך כשתשוב? האם אחזור להשיב חפצים סוררים לערימותיהן ואנקה טיפות מים שצברו לכלוך מסביב לכיור?<br><br>',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-9.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-9.mp4'
   },
   {
+    controlColor: '#f69022',
     hebrewTitle: 'משאלה',
     englishTitle: 'A Wish',
     writerEnglishName: 'Maya Klopmann',
@@ -107,9 +116,10 @@ const data = [{
     animatorHebrewName: 'תמר טל-אל',
     englishText: 'The blue airplane glides above. It traveled a great distance, all the way from- the child decides- Africa, and there are giraffes inside the airplane, five giraffes whose necks are long and yellow and stained. It flies above the great sea, the wind looses its\' grip and drops the airplane, it falls, the giraffes are about to drown, the child\'s heart is bursting with fear–<br><br>And then–<br><br>The child hears his name.<br>Father says, Let\'s go. It\'s getting dark.<br><br>The child blinks and the great sea is gone. The giraffes are gone as well. The airplane shrunk, its\' metal wings now made of plain plastic. <br><br>The child follows his father\'s steps. He asks if they can go to the playground tomorrow.<br>Not tomorrow, maybe Sunday. Depends on the new regulations.<br>And the child nods, as if he understood.',
     hebrewText: 'האווירון הכחול דואה באוויר. הוא הגיע ממקום רחוק, הילד מתלבט ומחליט - מאפריקה, ויש בתוכו ג\'ירפות, חמש ג\'ירפות שצווארן ארוך וצהוב ומוכתם. הוא טס מעל הים הגדול, הרוח מרפה והאווירון נשמט, נופל לים, הג\'ירפות עומדות לטבוע, ליבו של הילד מתפקע מפחד -<br><br>ואז - הילד שומע את שמו.<br>אבא אומר, בוא הביתה. כבר מחשיך.<br><br>הילד ממצמץ בעיניו והים הגדול נעלם. גם הג\'ירפות. <br>האווירון מתכווץ, כנפי המתכת הופכות פלסטיק פשוט.<br><br>הילד פוסע בעקבות אביו. הוא שואל אם מחר יוכלו ללכת לגינה.<br>מחר לא, אולי בראשון. תלוי בהנחיות.<br>והילד מהנהן, כאילו הבין.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-10.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-10.mp4'
   },
   {
+    controlColor: '#feff9d',
     hebrewTitle: 'גזר דין',
     englishTitle: 'Sentence',
     writerEnglishName: 'Isaac Cohen',
@@ -118,9 +128,10 @@ const data = [{
     animatorHebrewName: 'עמית כהן',
     englishText: 'At the end of a month and a day of my punishment, I was released.For a month and a day I did not hold my daughter, who was born two weeks before I went into isolation. Outside the closed room waited–not always patiently–four children and a wife after birth.<br><br>I was like a prisoner waiting for his verdict on the cell phone display.<br>Every time the doctor gave me permission, I went out–wearing gloves and a mask–to my Zinzana and went to the \'get tested and drive\' station to discuss an arrest extension.<br><br>At the station it is forbidden to open windows or turn on an air conditioner, and you are only allowed to get cooked slowly inside the hot box, waiting for people in suits to push sticks through the window for you.<br><br>After the test, you go back to your cell and wait for the results.<br>I have been examined five times, Honorable Judge.<br>Positive - the five stages of mourning<br>Negative - Press conference<br>Positive - Severe damage to public trust<br>Negative - learn from the past<br>Negative - Thank you very much Your Honor, I\'m going to hold my daughter.',
     hebrewText: 'בתום ריצוי חודש ויום מעונשי, יצאתי לחופשי. <br>חודש ויום לא הרמתי את הבת שלי, שנולדה שבועיים לפני שנכנסתי לבידוד. מחוץ לחדר הסגור המתינו - לא תמיד בסבלנות - ארבעה ילדים ואישה אחרי לידה. <br><br>הייתי כמו אסיר שמחכה לגזר דינו המהבהב על הצג של הנייד. <br>בכל פעם שקיבלתי אישור מהרופאה יצאתי - עטוי כפפות ומסכה - לזינזנה שלי ונסעתי לתחנת \'היבדק וסע\' לדיון בהארכת מעצר. <br><br>בתחנה אסור לפתוח חלונות או להדליק מזגן, ואתה מורשה להתבשל לאיטך בתוך הקופסה הלוהטת, מחכה לאנשים בחליפות שידחפו לך מקלות דרך החלון. <br><br>אחרי הבדיקה, אתה חוזר לתא שלך ומחכה לתוצאות. <br>נבדקתי חמש פעמים כבוד השופט. <br>חיובי - חמשת שלבי האבל<br>שלילי - מסיבת עיתונאים<br>חיובי - פגיעה קשה באמון הציבור<br>שלילי  - לומד מהעבר<br>שלילי - תודה רבה כבוד השופט, אני הולך להרים את הבת שלי.<br><br>',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-11.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-11.mp4'
   },
   {
+    controlColor: '#2fe4de',
     hebrewTitle: 'קופסא מזכוכית',
     englishTitle: 'Say, a Box of Glass',
     writerEnglishName: 'Muriel Naim',
@@ -129,9 +140,10 @@ const data = [{
     animatorHebrewName: 'אדוה כהן',
     englishText: 'When the world stopped (stood still), so did I.<br>Panting.<br>For a while now, I yearned to stop.<br>I dared not.<br>When one runs for so long until their destination is lost, stopping means dying.<br>Yet I haven’t died.<br>On the contrary, I washed my dishes.<br><br>I felt the cold water on my palms, polished wine glasses, and pondered the best way of approaching the task of washing the food container lids.<br><br>At times I was tense from being so still, yet I kept kneading thoroughly the mixture of potatoes and flour, planning to make out of it mushroom gnocchi and roasted chestnuts for tomorrow’s dinner.<br><br>For weeks I tried and failed to play ‘Hallelujah” on the piano.<br><br>At some point, the world urged me to step back into the race, but I was too busy watching a street cat trying to drink the drops of air conditioner water.',
     hebrewText: 'כשהעולם בלם, עצרתי גם אני. <br>מתנשף. <br>כבר זמן מה רציתי לעצור ולא העזתי.<br>כשאתה רץ כל כך הרבה זמן ששכחת מה יעדך, לעצור - פירושו למות.<br>אך לא מתּי. <br>להפך - רחצתי כלים. <br><br>הרגשתי את קרירות המים על ידיי, הברקתי כוסות יין, התעכבתי לתהות כיצד יהיה הכי נכון לנקות את מכסי קופסאות הפלסטיק עתירי התעלות.<br><br>לעיתים הייתי נדרך מחוסר התנועה אך ממשיך ללוש ביסודיות תערובת תפוחי אדמה וקמח ממנה תכננתי להכין ניוקי פטריות יער וערמונים קלויים לארוחת הערב של מחר.<br><br>נסיונותיי ללמוד לנגן בפסנתר את הללויה נמשכו שבועות.<br>מתישהו, העולם החל לדחוק בי לחזור לקו הזינוק ואני הייתי עסוק בלהתבונן בחתול רחוב מנסה לשתות מי מזגנים. ',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-12.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-12.mp4'
   },
   {
+    controlColor: '#ffbad3',
     hebrewTitle: 'נמלים וחיפושיות',
     englishTitle: 'Ants and Beetles',
     writerEnglishName: 'Livna Eliyahu',
@@ -140,9 +152,10 @@ const data = [{
     animatorHebrewName: 'ניתאי ברוך, נדיר גיל חרל״פ',
     englishText: 'Recently my life has improved from end to end. <br>Ever since kindergarten closed I\'m happy-I am the undisputed queen. <br><br>Every morning we go outside to blink eyes in the sun.<br>I collect ants and beetles in a box, and mom collects only air in her lungs.<br>Ahead of the holiday she sewed up the hole in my skirt. <br>It was tiny and didn\'t bother me at all, but I said \'Thank You\' nicely and gave her some room on the throne. <br>Apparently she needs more than I do for comfort. <br>If only she would agree, I will teach her a thing or two about life.',
     hebrewText: 'לאחרונה חיי השתפרו מקצה לקצה. <br>מאז שהגן נסגר אני מאושרת - אני המלכה הבלתי מעורערת.<br><br>בכל בוקר אנחנו יוצאות למצמץ עיניים בשמש. <br>אני אוספת לקופסה נמלים וחיפושיות, ואמא אוספת רק אויר לריאות.<br>לקראת החג היא תפרה לי את החור בחצאית. <br>הוא היה קטנטן ולא הציק לי בכלל, אבל אמרתי יפה ׳תודה׳ ופיניתי לה קצת מקום בכס המלוכה.<br>כנראה שהיא זקוקה יותר ממני לנחמה. <br>אם היא רק תסכים, אלמד אותה דבר או שנים על החיים.<br><br>',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-13.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-13.mp4'
   },
   {
+    controlColor: '#80b3ff',
     hebrewTitle: 'לא שעתם היפה של צלמי המגנטים',
     englishTitle: 'It Wasn’t The Best Time for Weddings Photographers',
     writerEnglishName: 'Stav Zimmerman Pollack',
@@ -151,9 +164,10 @@ const data = [{
     animatorHebrewName: 'רוני קרדי',
     englishText: 'It definitely wasn’t the nicest hour for the wedding photographers.<br><br>Regarding the magnet, the science books say:<br><br>“Every atom in paramagnetic matter creates a magnetic field around it. The general magnetic field is a superposition of all these fields. When atoms arrange themselves in a random way, the magnetic fields cancel each other.”<br><br>Regarding the heart, every person decides for themselves.<br><br>When we arrange the memory fields, they don’t cancel each other. The important things are held for eternity. They stay with us.',
     hebrewText: 'זו בהחלט לא הייתה שעתם היפה של צלמי המגנטים.<br><br>בעניין המגנט, ספרי המדע מפרטים:<br><br>כל אטום בחומר פרומגנטי יוצר סביבו שדה מגנטי, והשדה המגנטי הכללי הוא סופרפוזיציה (חיבור) של השדות הללו. כאשר סידור האטומים בחומר אקראי, מבטלים שדותיהם המגנטיים זה את זה.<br><br>ובענייני הלב, איש איש יפרט לעצמו.<br><br>כשמסדרים את שדה הזיכרונות, הם לא מבטלים זה את זה. ומה שחשוב, נאחז בתמיד. נשאר איתנו.<br><br>',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-14.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-14.mp4'
   },
   {
+    controlColor: '#c4c1fc',
     hebrewTitle: 'מרחק',
     englishTitle: 'Distance',
     writerEnglishName: 'Lital Kaplan',
@@ -162,9 +176,10 @@ const data = [{
     animatorHebrewName: 'גל שריר',
     englishText: 'Goodbyes are quicker when hugging is not necessary.<br>They happen for a moment, even if they stretch a bit longer.<br>One says to another - “Goodbye”, the ceremony of a body meeting a body does not exist.<br>One just waves his hand and walks, two meters then four then five, eight, ten and so on.<br>My mother is not stupid, she kept yelling after me.<br>Even when I was already far away. She always does it.',
     hebrewText: 'הפרידות יותר מהירות כשלא צריך להתחבק  - <br>הן קורות ברגע, גם אם הן נמתחות על כמה רגעים. <br>אומרים זה לזה - שלום, אין טקס של מפגש גופים, <br>פשוט קמים, מנפנפים ביד וממשיכים, משני מטר לארבעה, לחמישה, לשמונה, לעשרה וכן הלאה. <br>אמא שלי, לא פריירית, המשיכה לצעוק לי כל מיני דברים <br>גם שכבר הייתי רחוקה. היא עושה את זה גם בשגרה.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-15.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-15.mp4'
   },
   {
+    controlColor: '#f7cdf5',
     hebrewTitle: 'אין כניסה',
     englishTitle: 'No Entrance',
     writerEnglishName: 'Or Doron',
@@ -173,9 +188,10 @@ const data = [{
     animatorHebrewName: 'גיה קסטן',
     englishText: 'Behind a locked door, from which it is forbidden to leave until the next announcement, we left all the shit: <br><br><br>Tthe nights we hid,<br>The fear that they would enter the room in the middle of an intimate moment, <br>The time a friend caught us and told everyone else, even though we asked, without words, not to. <br>The painful memories of our “coming out”,<br>The insult I felt when they called me a manipulative girl, <br>the harsh words burned on my soul, <br>The one who looks down every time I enter the house, <br>The slamming of the door that made me wonder if this was the last time. <br>The judging faces on the streets of the foreign city, <br>The moment we postponed the wedding, <br>The lack of empathy and understanding from the institutions, <br>The difficulties we will still be facing in becoming a family. <br>The fears. <br><br>Only she, I, a hug, silence, home.',
     hebrewText: 'מאחורי דלת נעולה, ממנה אסור לצאת עד ההצהרה הבאה, <br>השארנו את כל החרא: <br><br>את הלילות שהתחבאנו, <br>את החשש שהם יכנסו אל החדר שלה ברגע אינטימי, <br>את הפעם ההיא שחברה תפסה אותנו וסיפרה לכל השאר, למרות שביקשנו, בלי מילים, שלא.<br>את הזכרונות הכואבים של היציאה מהארון, <br>את העלבון שחשתי כשהם קראו לי ילדה מניפולטיבית, <br>את המילים הקשות שנצרבו על הנשמה, <br>את מי שמשפיל מבט בכל פעם שאני נכנסת אל הבית, <br>את טריקת הדלת שגרמה לי לתהות אם זו הפעם האחרונה.<br>את הפרצופים העקומים ברחובות העיר הזרה, <br>את הרגע בו דחינו את החתונה, <br>את הזלזול של המוסדות והגופים, <br>את הקשיים שעוד נפגוש בשביל להפוך למשפחה. <br>את הפחדים.<br><br>רק היא, אני, חיבוק, דממה, בית.<br><br>',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-16.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-16.mp4'
   },
   {
+    controlColor: '#3baeff',
     hebrewTitle: 'עצלני מיטה',
     englishTitle: 'Two Lazy Bed Sloths',
     writerEnglishName: 'Leigh Heiman',
@@ -184,9 +200,10 @@ const data = [{
     animatorHebrewName: 'אלון סיון',
     englishText: 'I met her at a left-wing demonstration, even though none of us are particularly left-wing. But we didn’t have a choice. There was a smell. A smell of disgust. The stench of a rotting democracy that even two lazy bed sloths cannot avoid.<br><br>The city square was full of flags, signs, horns, children on their parents\' shoulders. It was a protest of blistering heat.<br><br>And we too are part of the corpse, a fish which has been washed ashore, one eye open.<br><br>A mutual friend introduced us there, right beside the palm trees.From beyond the magical smile, the sweet gap between her teeth, I realized there might still be a future. A small, intimate process took place against a background of protest. Loud cries for justice concealed within them whispers of love.<br><br>Is it still allowed to fall in love? Even during hard times?<br><br>Yesterday we went to another demonstration. <br>We heard the same shouts, cries and whispers. <br>This time, we went hand in hand.',
     hebrewText: 'פגשתי אותה בהפגנת שמאל, למרות שאף אחד מאיתנו לא שמאלני במיוחד. לא הייתה לנו ברירה. היה ריח. של מיאוס, צחנה של דמוקרטיה מרקיבה שלא חומקת אפילו משני עצלני מיטה. <br><br>הכיכר הדיפה מדגלים, שלטים, זמבורות, ילדים על כתפי הוריהם. מחאה של חום אימים. וגם אנחנו חלק מהגווייה, דג אשר נשטף אל החוף, עין אחת פקוחה. <br><br>חברה משותפת הכירה בינינו שם, על יד עצי הדקל. מבעד לחיוך המתוק, לרווח הקסום בין השיניים, זיהיתי שאולי בכל זאת יש עתיד. תהליך קטן ואינטימי התרחש על רקע גלי מחאה. קריאות רמות לצדק כינסו בתוכן לחישות של אהבה. <br><br>עוד מותר להתאהב? גם בימים של שפל?<br><br>אתמול כבר הלכנו לעוד הפגנה. <br>אותן קריאות, זעקות ולחישות. <br>הפעם הלכנו יד ביד.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-17.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-17.mp4'
   },
   {
+    controlColor: '#d5bba8',
     hebrewTitle: 'חומוס',
     englishTitle: 'Hummus',
     writerEnglishName: 'Lahav Halevy',
@@ -195,9 +212,10 @@ const data = [{
     animatorHebrewName: 'נועם ברגר',
     englishText: 'On Sundays I order hummus, and that, more than everything, means – we’re back. And the way all the black plastic containers with the zhug, pickles and pitas are put on the table erases everything, as if there weren’t almost two months between the last hummus and this one. Like nothing at all happened all these days.<br><br>A few days before this hummus I started to notice some sort of sadness taking over people. Something unexplained, that starts with some sort of a stutter about how we will overcome this, and ends with everyone saying, “too bad it won’t last a bit longer, this situation.”<br><br>I try to figure it out by myself, and I realise everyone is feeling a bit like summer camp is about to end, and it makes them kind of sad. Even people I know that had their businesses screwed, that lost tons of money, that were supposed to have some sort of personal interest that everything will get back to normal as soon as possible, even they are bummed. They feel like they deserve two-three-four more weeks like that.<br><br>The hummus broke me. The next morning, I made Shir and Iliya swear that even if I beg for hummus, even if I cry and stomp my feet and threaten to jump out of the window – even then they must not listen to my pleas, they’ll be tough with me, they’ll save me, they won’t allow me hummus.',
     hebrewText: 'ביום ראשון אני מזמין חומוס, וזה יותר מהכל, אומר - חזרנו. ואיך שכלי הפלסטיק השחור מונח לפני כל השולחן, עם הסחוג, החמוצים והפיתות, בבת אחת הכל נמחק, כאילו אין כמעט חודשיים בין החומוס האחרון לבין זה. כאילו לא קרה דבר בכל הימים האלה.<br><br>כמה ימים קודם לחומוס אני מתחיל לשים לב שאיזו דוק של תוגה משתלט על אנשים. משהו לא מוסבר שמתחיל באיזה גמגום על זה שנתגבר, ונגמר בזה שכל אחד אומר ״חבל שזה לא נמשך עוד קצת, המצב הזה״.<br><br>אני מנסה לברר ביני לביני וקולט שכולם קצת מרגישים שהקייטנה מתקרבת לסיומה, וקצת נהיים מדוכדכים מזה. כולל אנשים שאני יודע שנדפקו להם העסקים, שהפסידו המון כסף, שהיה אמור להיות להם איזה אינטרס אישי צר שהכל יחזור לקדמותו הכי מהר שאפשר, מבואסים. מרגישים שהגיעו להם עוד שבועיים-שלושה-ארבעה כאלה.<br><br>החומוס גמר אותי. למחרת בבוקר השבעתי את שיר ואיליה שגם אם אתחנן על נפשי לחומוס, גם אם אבכה וארקע ברגליים ואאיים לקפוץ מהחלון - שלא ישעו לתחינותי, שיהיו קשוחים איתי, שיצילו אותי, שלא ירשו לי חומוס. <br>על קץ הקייטנה אצטרך להתגבר בעצמי.<br><br>',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-18.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-18.mp4'
   },
   {
+    controlColor: '#fff28d',
     hebrewTitle: 'לא כך דמיינתי את הקטסטרופה',
     englishTitle: 'This isn’t How I Imagined The Catastrophe',
     writerEnglishName: 'Einat Fogel-Levin',
@@ -206,9 +224,10 @@ const data = [{
     animatorHebrewName: 'נמרוד ספיר',
     englishText: '',
     hebrewText: '',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-19.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-19.mp4'
   },
   {
+    controlColor: '#ff7f71',
     hebrewTitle: 'ארבעה קירות',
     englishTitle: 'Four Walls',
     writerEnglishName: 'Aner Morag',
@@ -217,9 +236,10 @@ const data = [{
     animatorHebrewName: 'ערבה רובינוביץ׳',
     englishText: 'On those days we saw our dreams through a white ceiling and four doors.<br><br>Our living space, which was now limited to eighty square meters - the lucky ones had a balcony- couldn’t contain our souls’ yearning. They too adapted to the new situation and started to screen for us - like a nineties tv channel- reruns of our inner selves.<br><br>And on those days we dreamed like we haven\'t dreamed in years, and in our space, in those same precious square meters, the flavours of life grew stronger and stronger. The chef reduces the sauce, running is allowed, but only within one hundred meters from home. The rest Is forbidden. We are being reduced on an atomic scale, anymore pressure and - BOOM.',
     hebrewText: 'ובאותם הימים ראינו את החלומות שלנו דרך תקרה לבנה וארבעה קירות.<br>מרחב הקיום שלנו, שצומצם לכדי 80 מטרים רבועים וברי מזל, כולל מרפסת,<br>לא יכול להכיל את מאוויי הנפש, אז גם הוא הסתגל למצב החדש והחל מקרין עבורנו, כמו ערוץ טלויזיה בניינטיז שידורים חוזרים, פנימיים. כל מה שאנו כמהים אליו בחוץ, מוקרן עתה, כאן.<br><br>ובאותם הימים חלמנו כפי שלא חלמנו שנים, ובחלל שלנו, אותם מטרים רבועים וברי מזל, התחזקו עוד ועוד טעמי החיים. השף, בהנחיותיו, מצמצם עוד ועוד את הרוטב, מותר לרוץ, מותר רק 100 מטרים מהבית, כל השאר? אסור.<br><br>נותרנו רק גרעין, <br>עוד קצת ידחסו אותנו אל עצמנו,<br>בום.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-20.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-20.mp4'
   },
   {
+    controlColor: '#a4cfff',
     hebrewTitle: 'מסיבת תחפושות',
     englishTitle: 'Costume Party',
     writerEnglishName: 'Dor Amitai',
@@ -228,9 +248,10 @@ const data = [{
     animatorHebrewName: 'שי כותני ורותם לבל',
     englishText: 'For a moment we were emotional, excited even. Our hearts were filled with drops of happiness we couldn’t really explain. Everyday was a costume party; in the morning I was dressed as a worker from home, in noon as a health chief and at evening as the number one racer as I run around my building. I dress as the caring granddaughter who called every day, as the girlfriend who keeps cleaning, as a person who has hobbies and reads and draws.<br><br>At the end of every day darkness falls down, it starts outside and breaks its way inside- to the apartment, the room, to the blood cycle. It fills me with an anxiety I’m unfamiliar with. It reveals the lies, the meaningless, the accidentalness of everything and everyone I was that day and will be again tomorrow. The bed is uncomfortable. Suddenly it’s too rough, too familiar. I didn’t have the time to miss it. Lying down, my right side doesn’t want to hold my weight, nor my left. After a day full of running errands, I stare at the ceiling and try to remember the feeling of a heavy head lying on a soft pillow, remember how the eyes close on their own.',
     hebrewText: 'לרגע אפילו התרגשנו. שמחנו קצת בלב בלי הסבר ברור. כל יום מחדש מסיבת תחפושות - בבוקר מחופשת לעובדת מהבית, בצהריים בשלנית בריאות, בערב אצנית מספר אחת מסביב לבניין, לנכדה שכל יום מתקשרת, לבת זוג שמסדרת, לאחת כזאת עם תחביבים שקוראת ומציירת. <br><br>בסוף כל יום יורד החושך, מתחיל בחוץ וחודר פנימה - לדירה, לחדר, למחזור הדם. ממלא אותי בחרדה שזרה לי. חושף את השקריות, הסתמיות, המקריות של כל מי שהייתי באותו יום ואהיה שוב מחר. המיטה לא נוחה לי, פתאום היא קשה מדי, מוכרת מדי. לא הספקתי להתגעגע. צד ימין לא רוצה שאשן עליו. צד שמאל מזדהה. בוהה בתקרה ומנסה להיזכר בתחושה של הראש כבד על הכרית, אחרי יום של התרוצצות, איך העיניים נעצמות מעצמן.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-21.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-21.mp4'
   },
   {
+    controlColor: '#b76727',
     hebrewTitle: 'גיטרה',
     englishTitle: 'Guitar',
     writerEnglishName: 'Mati Gilad',
@@ -239,6 +260,6 @@ const data = [{
     animatorHebrewName: 'בר זוטרא',
     englishText: 'I found out I love music. Really it might sound funny because that’s what I do for a living but I never actually stopped and thought about it since I was 15.<br><br>The Covid-19 caught me in the middle of a long intense tour that was suppose to last all summer long. I came back straight to quarantine, into an apartment without anything in Hadera. I feared that in those two weeks I might not miss music, a fear that has been playing inside my mind for a while now, that my hobby turn into a job, that I’m running out of steam. After two days I asked for my guitar.',
     hebrewText: 'גיליתי שאני אוהב מוזיקה, באמת. זה נשמע מצחיק כי זה מה שאני עושה אבל בעצם לא עצרתי לחשוב על זה מגיל 15. <br>הקורונה תפסה אותי באמצע סיבוב הופעות ארוך ואינטנסיבי שהיה אמור להמשיך לכל הקיץ. חזרתי ישר לבידוד, דירה בלי כלום בחדרה. פחדתי שאני אגלה שאחרי שבועיים בלי מוזיקה היא לא תחסר לי, חשש שיושב אצלי כבר הרבה זמן, שהתחביב הפך לעבודה, שאני על אדים כבר שנים. <br><br>אחרי יומיים ביקשתי שיביאו לי גיטרה.',
-    videoLink: 'https://dor-notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-22.mp4'
+    videoLink: 'https://notes-from-home-exhibit.s3.eu-central-1.amazonaws.com/video-22.mp4'
   }
 ]
