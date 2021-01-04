@@ -1,8 +1,7 @@
 ;(() => {
   const progress = document.querySelector('#progress')
   const fill = progress.querySelector('.fill')
-  const credits = document.querySelectorAll('dynamic-color')
-  console.log('credits:', credits)
+  const credits = document.querySelectorAll('.dynamic-color')
   const blockTrigger = document.getElementById('block-trigger')
   const slides = document.querySelectorAll('.new')
   const videoOverlay = document.getElementById('video-overlay')
@@ -11,34 +10,40 @@
   const hebrewTextElm = document.getElementById('hebrew')
   const englishTextElm = document.getElementById('english')
   const modalClose = document.getElementById('modal-close')
-  const eng = document.getElementById('engBtn')
-  const heb = document.getElementById('hebBtn')
-  button = document.getElementById('play-btn')
+  const engBtn = document.getElementById('engBtn')
+  const hebBtn = document.getElementById('hebBtn')
+  const videoTitleHebrew = document.getElementById('videoTitleHebrew')
+  const animatorHebrew = document.getElementById('animatorHebrew')
+  const writerHebrew = document.getElementById('writerHebrew')
+  const videoTitleEnglish = document.getElementById('videoTitleEnglish')
+  const writerEnglish = document.getElementById('writerEnglish')
+  const animatorEnglish = document.getElementById('animatorEnglish')
+  const button = document.getElementById('play-btn')
   let started = false
   
   function progressLoop () {
     started = true
     fill.style.width = `${Math.round(
-      (video.currentTime / video.duration) * 100
+      (videoElm.currentTime / videoElm.duration) * 100
     )}%`
   }
   
   function playPause (textOver) {
     opacityOverlay.classList.toggle('show')
-    if (video.paused && textOver !== true) {
-      video.play()
+    if (videoElm.paused && textOver !== true) {
+      videoElm.play()
       button.innerHTML = ''
     } else {
-      video.pause()
+      videoElm.pause()
       button.innerHTML = 'Play'
     }
   }
   
   function handleVideoModalClose () {
-    video.pause()
+    videoElm.pause()
     fill.style.width = 0
     videoOverlay.classList.add('hide')
-    video.classList.remove('show')
+    videoElm.classList.remove('show')
   }
   
   function handleProgressClick (e) {
@@ -46,30 +51,37 @@
     const width = rect.width
     const x = e.clientX - rect.left
     const rel = x / width
-    const dur = video.duration
-    video.currentTime = Math.round(rel * dur)
+    const dur = videoElm.duration
+    videoElm.currentTime = Math.round(rel * dur)
   }
   
   function handleTextSelection (event) {
     const englishParagraph = document.getElementById('english')
     const hebrewParagraph = document.getElementById('hebrew')
+    const hebText = document.getElementById('hebText')
+    const engText = document.getElementById('engText')
+    
     if (event.target.id === 'engBtn') {
-      eng.classList.add('active')
-      heb.classList.remove('active')
+      engBtn.classList.add('active')
+      hebBtn.classList.remove('active')
       hebrewParagraph.classList.add('hide')
       englishParagraph.classList.remove('hide')
+      engText.classList.add('active')
+      hebText.classList.remove('active')
     } else {
-      heb.classList.add('active')
-      eng.classList.remove('active')
+      hebBtn.classList.add('active')
+      engBtn.classList.remove('active')
       hebrewParagraph.classList.remove('hide')
       englishParagraph.classList.add('hide')
+      engText.classList.remove('active')
+      hebText.classList.add('active')
     }
   }
   
   function handleTextBlockClick () {
     const textBlock = document.getElementById('text-block')
-    eng.addEventListener('click', handleTextSelection)
-    heb.addEventListener('click', handleTextSelection)
+    engBtn.addEventListener('click', handleTextSelection)
+    hebBtn.addEventListener('click', handleTextSelection)
     blockTrigger.innerText =
       blockTrigger.innerText === 'Text' ? 'Video' : 'Text'
     
@@ -81,19 +93,23 @@
       const { controlColor } = data[ind]
       blockTrigger.style.backgroundColor = controlColor
       fill.style.backgroundColor = controlColor
-      console.log('credits:', credits)
-      console.log('controlColor:', controlColor)
-      credits.forEach(e => console.log('e:', e))
-      credits.forEach( credit => credit.style.color = controlColor)
+      credits.forEach(credit => credit.style.color = controlColor)
     } catch (error) {}
   }
   
   function handleVideoModalOpen (ind) {
     const { videoLink, hebrewText, englishText } = data[ind]
+    const { hebrewTitle, englishTitle, writerHebrewName, writerEnglishName, animatorHebrewName, animatorEnglishName } = data[ind]
     videoOverlay.classList.remove('hide')
     videoElm.src = videoLink
     englishTextElm.innerHTML = englishText
     hebrewTextElm.innerHTML = hebrewText
+    videoTitleHebrew.innerHTML = hebrewTitle
+    videoTitleEnglish.innerHTML = englishTitle
+    writerHebrew.innerHTML = writerHebrewName
+    writerEnglish.innerHTML = writerEnglishName
+    animatorHebrew.innerHTML = animatorHebrewName
+    animatorEnglish.innerHTML = animatorEnglishName
     if (!videoElm) return
     
     setControlColors(ind)
@@ -107,9 +123,8 @@
   }
   
   button.addEventListener('click', playPause)
-  
-  modalClose.addEventListener('click', handleVideoModalClose)
   blockTrigger.addEventListener('click', handleTextBlockClick)
+  modalClose.addEventListener('click', handleVideoModalClose)
   progress.addEventListener('click', handleProgressClick)
   slides.forEach(initSlideClick)
 })()
