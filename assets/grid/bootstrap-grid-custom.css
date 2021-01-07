@@ -294,39 +294,29 @@ hr {
   cursor: pointer;
 }
 
-.container,
-.container-fluid,
-.container-sm,
-.container-md,
-.container-lg {
+.container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 75px;
+  padding-left: 75px;
   margin-right: auto;
   margin-left: auto;
 }
 
-@media (min-width: 1000px) {
-  .container,
-  .container-sm {
-    max-width: 100%;
+/*xs, sm */
+@media (max-width: 768px) {
+  .container {
+    /*border: 1px solid red;*/
+    padding-right: 25px;
+    padding-left: 25px;
+    /*max-width: 100%;*/
   }
 }
 
-@media (min-width: 1250px) {
-  .container,
-  .container-sm,
-  .container-md {
-    max-width: 1100px;
-  }
-}
-
-@media (min-width: 1450px) {
-  .container,
-  .container-sm,
-  .container-md,
-  .container-lg {
-    max-width: 1350px;
+/*md, lg */
+@media (min-width: 768px) {
+  .container {
+    /*border: 1px solid green;*/
+    /*max-width: 1100px;*/
   }
 }
 
@@ -408,8 +398,8 @@ hr {
 .col-lg-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /*padding-right: 15px;*/
+  /*padding-left: 15px;*/
 }
 
 .col {

@@ -675,6 +675,16 @@ body {
     scrollbar-width: none; /* Firefox */
 }
 
+#text-block .container .row {
+    justify-content: flex-end;
+}
+#fixed {
+    width: 309px;
+    position: fixed;
+    left: 75px;
+    top: 180px;
+}
+
 div.language {
     display: none;
 }
@@ -795,6 +805,8 @@ button {
 .about .right-wrap {
     position: fixed;
     right: 57px;
+    width: 410px;
+    top: 59px;
 }
 
 .about .right-wrap .nav {
