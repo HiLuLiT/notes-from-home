@@ -46,6 +46,7 @@
     button.innerHTML = ''
     videoOverlay.classList.add('hide')
     videoElm.classList.remove('show')
+    blockTrigger.innerText = 'Text'
   }
   
   function handleProgressClick (e) {
