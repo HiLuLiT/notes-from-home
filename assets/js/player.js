@@ -41,7 +41,9 @@
   
   function handleVideoModalClose () {
     videoElm.pause()
+    document.getElementById('text-block').classList.remove('open')
     fill.style.width = 0
+    button.innerHTML = ''
     videoOverlay.classList.add('hide')
     videoElm.classList.remove('show')
   }
