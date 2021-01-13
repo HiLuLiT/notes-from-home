@@ -266,7 +266,6 @@ body {
     height: 100%;
     position: absolute;
     left: 0;
-    background: url("https://placekitten.com/400/700");
     background-size: cover;
 }
 
@@ -274,7 +273,12 @@ body {
     z-index: 23;
 }
 
-#wrap .images .new.pic1 .slide {
+.webp #wrap .images .new.pic1 .slide {
+    background: url("assets/images/gallery-1.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic1 .slide {
     background: url("assets/images/gallery-1.png");
     background-size: cover;
     background-position: center;
@@ -284,7 +288,12 @@ body {
     z-index: 22;
 }
 
-#wrap .images .new.pic2 .slide {
+.webp #wrap .images .new.pic2 .slide {
+    background: url("assets/images/gallery-2.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic2 .slide {
     background: url("assets/images/gallery-2.png");
     background-size: cover;
     background-position: center;
@@ -294,7 +303,12 @@ body {
     z-index: 21;
 }
 
-#wrap .images .new.pic3 .slide {
+.webp #wrap .images .new.pic3 .slide {
+    background: url("assets/images/gallery-3.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic3 .slide {
     background: url("assets/images/gallery-3.png");
     background-size: cover;
     background-position: center;
@@ -304,7 +318,12 @@ body {
     z-index: 20;
 }
 
-#wrap .images .new.pic4 .slide {
+.webp #wrap .images .new.pic4 .slide {
+    background: url("assets/images/gallery-4.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic4 .slide {
     background: url("assets/images/gallery-4.png");
     background-size: cover;
     background-position: center;
@@ -314,7 +333,12 @@ body {
     z-index: 19;
 }
 
-#wrap .images .new.pic5 .slide {
+.webp #wrap .images .new.pic5 .slide {
+    background: url("assets/images/gallery-5.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic5 .slide {
     background: url("assets/images/gallery-5.png");
     background-size: cover;
     background-position: center;
@@ -324,7 +348,12 @@ body {
     z-index: 18;
 }
 
-#wrap .images .new.pic6 .slide {
+.webp #wrap .images .new.pic6 .slide {
+    background: url("assets/images/gallery-6.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic6 .slide {
     background: url("assets/images/gallery-6.png");
     background-size: cover;
     background-position: center;
@@ -334,7 +363,12 @@ body {
     z-index: 17;
 }
 
-#wrap .images .new.pic7 .slide {
+.webp #wrap .images .new.pic7 .slide {
+    background: url("assets/images/gallery-7.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic7 .slide {
     background: url("assets/images/gallery-7.png");
     background-size: cover;
     background-position: center;
@@ -344,7 +378,12 @@ body {
     z-index: 16;
 }
 
-#wrap .images .new.pic8 .slide {
+.webp #wrap .images .new.pic8 .slide {
+    background: url("assets/images/gallery-8.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic8 .slide {
     background: url("assets/images/gallery-8.png");
     background-size: cover;
     background-position: center;
@@ -354,7 +393,12 @@ body {
     z-index: 15;
 }
 
-#wrap .images .new.pic9 .slide {
+.webp #wrap .images .new.pic9 .slide {
+    background: url("assets/images/gallery-9.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic9 .slide {
     background: url("assets/images/gallery-9.png");
     background-size: cover;
     background-position: center;
@@ -364,7 +408,12 @@ body {
     z-index: 14;
 }
 
-#wrap .images .new.pic10 .slide {
+.webp #wrap .images .new.pic10 .slide {
+    background: url("assets/images/gallery-10.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic10 .slide {
     background: url("assets/images/gallery-10.png");
     background-size: cover;
     background-position: center;
@@ -374,7 +423,12 @@ body {
     z-index: 13;
 }
 
-#wrap .images .new.pic11 .slide {
+.webp #wrap .images .new.pic11 .slide {
+    background: url("assets/images/gallery-11.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic11 .slide {
     background: url("assets/images/gallery-11.png");
     background-size: cover;
     background-position: center;
@@ -384,7 +438,12 @@ body {
     z-index: 12;
 }
 
-#wrap .images .new.pic12 .slide {
+.webp #wrap .images .new.pic12 .slide {
+    background: url("assets/images/gallery-12.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic12 .slide {
     background: url("assets/images/gallery-12.png");
     background-size: cover;
     background-position: center;
@@ -394,7 +453,12 @@ body {
     z-index: 11;
 }
 
-#wrap .images .new.pic13 .slide {
+.webp #wrap .images .new.pic13 .slide {
+    background: url("assets/images/gallery-13.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic13 .slide {
     background: url("assets/images/gallery-13.png");
     background-size: cover;
     background-position: center;
@@ -404,7 +468,12 @@ body {
     z-index: 10;
 }
 
-#wrap .images .new.pic14 .slide {
+.webp #wrap .images .new.pic14 .slide {
+    background: url("assets/images/gallery-14.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic14 .slide {
     background: url("assets/images/gallery-14.png");
     background-size: cover;
     background-position: center;
@@ -414,7 +483,12 @@ body {
     z-index: 9;
 }
 
-#wrap .images .new.pic15 .slide {
+.webp #wrap .images .new.pic15 .slide {
+    background: url("assets/images/gallery-15.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic15 .slide {
     background: url("assets/images/gallery-15.png");
     background-size: cover;
     background-position: center;
@@ -424,7 +498,12 @@ body {
     z-index: 8;
 }
 
-#wrap .images .new.pic16 .slide {
+.webp #wrap .images .new.pic16 .slide {
+    background: url("assets/images/gallery-16.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic16 .slide {
     background: url("assets/images/gallery-16.png");
     background-size: cover;
     background-position: center;
@@ -434,7 +513,12 @@ body {
     z-index: 7;
 }
 
-#wrap .images .new.pic17 .slide {
+.webp #wrap .images .new.pic17 .slide {
+    background: url("assets/images/gallery-17.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic17 .slide {
     background: url("assets/images/gallery-17.png");
     background-size: cover;
     background-position: center;
@@ -444,7 +528,12 @@ body {
     z-index: 6;
 }
 
-#wrap .images .new.pic18 .slide {
+.webp #wrap .images .new.pic18 .slide {
+    background: url("assets/images/gallery-18.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic18 .slide {
     background: url("assets/images/gallery-18.png");
     background-size: cover;
     background-position: center;
@@ -454,7 +543,12 @@ body {
     z-index: 5;
 }
 
-#wrap .images .new.pic19 .slide {
+.webp #wrap .images .new.pic19 .slide {
+    background: url("assets/images/gallery-19.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic19 .slide {
     background: url("assets/images/gallery-19.png");
     background-size: cover;
     background-position: center;
@@ -464,7 +558,12 @@ body {
     z-index: 4;
 }
 
-#wrap .images .new.pic20 .slide {
+.webp #wrap .images .new.pic20 .slide {
+    background: url("assets/images/gallery-20.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic20 .slide {
     background: url("assets/images/gallery-20.png");
     background-size: cover;
     background-position: center;
@@ -474,7 +573,12 @@ body {
     z-index: 3;
 }
 
-#wrap .images .new.pic21 .slide {
+.webp #wrap .images .new.pic21 .slide {
+    background: url("assets/images/gallery-21.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic21 .slide {
     background: url("assets/images/gallery-21.png");
     background-size: cover;
     background-position: center;
@@ -484,7 +588,12 @@ body {
     z-index: 2;
 }
 
-#wrap .images .new.pic22 .slide {
+.webp #wrap .images .new.pic22 .slide {
+    background: url("assets/images/gallery-22.webp");
+    background-size: cover;
+    background-position: center;
+}
+.no-webp #wrap .images .new.pic22 .slide {
     background: url("assets/images/gallery-22.png");
     background-size: cover;
     background-position: center;
