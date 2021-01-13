@@ -46,7 +46,7 @@
     button.innerHTML = ''
     videoOverlay.classList.add('hide')
     videoElm.classList.remove('show')
-    blockTrigger.innerText = 'Text'
+    blockTrigger.innerText = 'Read'
   }
   
   function handleProgressClick (e) {
@@ -86,7 +86,7 @@
     engBtn.addEventListener('click', handleTextSelection)
     hebBtn.addEventListener('click', handleTextSelection)
     blockTrigger.innerText =
-      blockTrigger.innerText === 'Text' ? 'Video' : 'Text'
+      blockTrigger.innerText === 'Read' ? 'Watch' : 'Read'
     
     if (started) playPause(textBlock.classList.toggle('open'))
   }
