@@ -1,7 +1,6 @@
 
 
-# notes-from-home website
-[Notes From Home Website](https://www.notesfromhome.art).
+# [Notes From Home Website](https://www.notesfromhome.art).
 
 Watch the exhbition [here](https://www.notesfromhome.art).
 
